@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Project 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+body {
+     background-color: black;
+}
+
+header img {
+    width: 100px;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(101, 104, 104);
+    margin: 0px;
+    padding: 0px 0px;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+}
+
+.abc{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+div img {
+    display: inline;
+    padding: 0px;
+}
+
+.footer{
+    margin-top: 20px ;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ background-color: rgba(0,0,0,.8);
+ display: flex;
+}
+
+ul{
+ margin-top: 40px;
+}
+
+li{
+ list-style-type: none;
+ margin: 3px;
+ color:white;
+}
+
+.first{
+ font-size: 25px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+    </style>
+</head>
+<body>
+
+    <!--Header-->
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkd5nhgVpD0cYhpyY_L0504NEcvvwjJdGGEg&usqp=CAU" alt="">
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <button class="abc">TOUCH</button>
+                </ul>
+
+            </nav>
+        </div>
+    </header><br><br><br><br>
+
+    <!--Header End-->
+
+    <!--Content-->
+
+<div>
+    <h1 style="text-align: center;">Cars</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJOXtvD2gKgYxBTR7HvugoAFpwYlbkGPJK7w&usqp=CAU" alt="" style="width: 100%;">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYpnMGNxudHbYNrdMaIFXR81Z23m_bFojOAA&usqp=CAU" alt="" style="width: 100%;">
+
+    <img src="https://c4.wallpaperflare.com/wallpaper/787/18/502/cars-hd-widescreen-high-quality-desktop-wallpaper-preview.jpg" alt="" style="width: 100%;">
+
+    <img src="https://images3.alphacoders.com/131/1313227.jpeg" alt="" style="width: 100%;">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs7yf6qT4o9INUA6BEn0bBnOEH8wmiHe3Upw&usqp=CAU" alt="" style="width: 100%;">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWSvQtbdSKDf82GCvHMguoEhbpyzwpwfZgqA&usqp=CAU" alt="" style="width: 100%;">
+
+
+<!--Content End-->
+
+<!--Footer-->
+<footer>
+
+<div class="footer">
+    
+    <ul>
+    <li class="first">Contact us</li>
+    <li>No:29,ram street,raju nagar,Chennai</li>
+    <li>876543652</li>
+    </ul>
+    </div>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+            <a href="#" class="fa fa-skype"></a>
+            <a href="#" class="fa fa-android"></a>
+            <a href="#" class="fa fa-dribbble"></a>
+            <a href="#" class="fa fa-vimeo"></a>
+            <a href="#" class="fa fa-tumblr"></a>
+            <a href="#" class="fa fa-stumbleupon"></a>
+            <a href="#" class="fa fa-flickr"></a>
+            <a href="#" class="fa fa-yahoo"></a>
+    </div>
+</footer>
+
+
+
+
+
+</div>
+    
+</body>
+</html>
